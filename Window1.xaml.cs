@@ -297,6 +297,10 @@ namespace CovidSim
             }
         }
 
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            dispatcherTimer.Stop();
+        }
     }
     /// <summary>
     /// 感染状態を示す
