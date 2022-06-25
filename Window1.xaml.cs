@@ -42,7 +42,7 @@ namespace CovidSim
 
         readonly int InfectMagnification;
 
-        readonly int MaskInfectMagnification;
+
 
         string outputcontents;
 
@@ -58,7 +58,7 @@ namespace CovidSim
         /// <param name="infectedspan"></param>
         /// <param name="infectmagnification"></param>
         /// <param name="maskinfectmagnification"></param>
-        public Window1(int startinfect, int person, bool allowmove,int movemagnification,int infectedspan,int infectmagnification,int maskinfectmagnification)
+        public Window1(int startinfect, int person, bool allowmove,int movemagnification,int infectedspan,int infectmagnification)
         {
             InitializeComponent();
             for (int i = 0; i < 60; i++)
@@ -139,7 +139,6 @@ namespace CovidSim
             }
 
             InfectedSpan = infectedspan;
-            MaskInfectMagnification = maskinfectmagnification;
             InfectMagnification = infectmagnification;
             MoveMagnification = movemagnification;
             AllowMove = allowmove;
