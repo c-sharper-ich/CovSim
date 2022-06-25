@@ -42,7 +42,7 @@ namespace CovidSim
             try
             {
 
-                new Window1(Convert.ToInt32(tb_n0.Text), Convert.ToInt32(tb_n.Text), cb_allow.IsChecked.Value, Convert.ToInt32(tb_q.Text), Convert.ToInt32(tb_t.Text), Convert.ToInt32(tb_p.Text), 60).Show();
+                new Window1(Convert.ToInt32(tb_n0.Text), Convert.ToInt32(tb_n.Text), cb_allow.IsChecked.Value, Convert.ToInt32(tb_q.Text), Convert.ToInt32(tb_t.Text), Convert.ToInt32(tb_p.Text)).Show();
             }
             catch
             {
